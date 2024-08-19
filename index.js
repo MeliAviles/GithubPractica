@@ -5,3 +5,11 @@ function laCajaDePandora(numero){
     }
     return numero.toString(16);
     }
+
+    function CinthyaSanchez() {
+        return {
+            nombre: "Cinthya Sanchez",
+            edad: 29, 
+            nacionalidad: "Mexicana"
+        };
+    }
