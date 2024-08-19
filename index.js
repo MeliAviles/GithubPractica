@@ -5,3 +5,12 @@ function laCajaDePandora(numero){
         return num.toString(16)
     }
     }
+
+
+    function getMyInfo() {
+        return {
+            name: "Diego",
+            age: "38",  
+            nationality: "Peruana"       
+        };
+    }    
