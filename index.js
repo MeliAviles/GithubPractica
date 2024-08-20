@@ -1,17 +1,17 @@
 
 function laCajaDePandora(numero){
-    // proximamente escribiremos codigo aqui
-    if(numero % 2 === 0){
-        return numero.toString(2);
+    if (numero % 2 === 0) {
+        return num.toString(2);
+    }else {
+        return num.toString(16)
     }
-    return numero.toString(16);
     }
 
-    function CinthyaSanchez() {
+
+    function getMyInfo() {
         return {
-            nombre: "Cinthya Sanchez",
-            edad: 29, 
-            nacionalidad: "Mexicana"
+            name: "Diego",
+            age: "38",  
+            nationality: "Peruana"       
         };
-    }
-
+    }    
