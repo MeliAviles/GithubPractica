@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero){
 
     if (numero % 2 === 0) {
@@ -18,3 +19,13 @@ function laCajaDePandora(numero){
     };
 };
     
+
+
+    function getMyInfo() {
+        return {
+            name: "Diego",
+            age: "38",  
+            nationality: "Peruana"       
+        };
+    }    
+
