@@ -1,18 +1,17 @@
 
-function laCajaDePandora(numero) {
-    if(numero % 2 === 0) {
-        return numero.toString(2) + "es par a binario"
-    } else {
-        return numero.toString(2) + "es impar a hexadecimal"
+function laCajaDePandora(numero){
+    // proximamente escribiremos codigo aqui
+    if(numero % 2 === 0){
+        return numero.toString(2);
     }
-}
-
-function Nadia(){
-    return {
-        name: "Nadia",
-        age: 25,
-        nationality: "Argentina"
+    return numero.toString(16);
     }
-}
 
+    function CinthyaSanchez() {
+        return {
+            nombre: "Cinthya Sanchez",
+            edad: 29, 
+            nacionalidad: "Mexicana"
+        };
+    }
 
