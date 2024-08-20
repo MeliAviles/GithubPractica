@@ -1,11 +1,24 @@
 
 function laCajaDePandora(numero){
+
     if (numero % 2 === 0) {
-        return num.toString(2);
-    }else {
-        return num.toString(16)
-    }
-    }
+        let r = [];
+        while(numero > 0) {
+            r.unshift(numero % 2);
+             numero = Math.floor(numero / 2);
+        };
+        return r.join('');
+        
+    } else {
+        let r = [];
+        while(numero > 0) {
+            r.unshift(numero % 16);
+             numero = Math.floor(numero / 16);
+        };
+        return r.join('');
+    };
+};
+    
 
 
     function getMyInfo() {
@@ -15,3 +28,4 @@ function laCajaDePandora(numero){
             nationality: "Peruana"       
         };
     }    
+
