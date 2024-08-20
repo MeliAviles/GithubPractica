@@ -11,7 +11,7 @@
 
     function nombreCompleto() {
         return {
-            nombre: "Maira",
+            nombre: "Mairaa",
             edad: 28, 
             nacionalidad: "Argentina"
         };
