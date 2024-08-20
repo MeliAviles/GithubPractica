@@ -1,18 +1,18 @@
 
-    function laCajaDePandora(numero) {
-        if (numero % 2 === 0) {
-            
-            return numero.toString(2);
-        } else {
-            
-            return numero.toString(16);
-        }
+function laCajaDePandora(numero) {
+    if(numero % 2 === 0) {
+        return numero.toString(2) + "es par a binario"
+    } else {
+        return numero.toString(2) + "es impar a hexadecimal"
     }
+}
 
-    function nombreCompleto() {
-        return {
-            nombre: "Mairaa",
-            edad: 28, 
-            nacionalidad: "Argentina"
-        };
+function Nadia(){
+    return {
+        name: "Nadia",
+        age: 25,
+        nationality: "Argentina"
     }
+}
+
+
